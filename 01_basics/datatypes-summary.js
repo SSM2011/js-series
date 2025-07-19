@@ -32,3 +32,30 @@ const myFunction = function(){
 }
 
 console.log(typeof bigNumber)
+
+
+// *************************** Memory ************************************
+
+// Stack(primitive), Heap(Non-primitive)
+
+let myYtName = "subodhmuledotcom"
+
+let anotherName = "myytname"
+
+anotherName = "2ndyt"
+
+console.log(anotherName)
+console.log(myYtName)
+
+
+let user = {
+    Email: "user@gmail.com",
+    Upi: "user@ippb"
+}
+
+let user2 = user
+
+user2.Email = "user2@gmail.com"
+
+console.log(user.Email);
+console.log(user2.Email);
