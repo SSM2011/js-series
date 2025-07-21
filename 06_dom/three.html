@@ -8,4 +8,20 @@
 <body style="background-color: #212121; color: #fff;">
     
 </body>
+
+<script>
+  const div =  document.createElement('div')
+  console.log(div)
+  div.className = "main"
+  div.id = Math.random() *10 + 1
+
+  div.setAttribute("title", "Generate a Title")
+  div.style.backgroundColor = "green"
+  div.style.padding = "12px"
+//   div.innerHTML = "Chai aur code"
+ const addText =  document.createTextNode("Chai aur code")
+ div.appendChild(addText)
+
+ document.body.appendChild(div)
+</script>
 </html>
